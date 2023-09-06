@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .input {
+    @apply rounded-full border-2 border-gray-900 h-14 px-4 w-full appearance-none text-gray-900 placeholder:text-gray-500 placeholder:font-bold;
+  }
+}
